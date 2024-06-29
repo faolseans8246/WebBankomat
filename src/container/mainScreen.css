@@ -1,0 +1,100 @@
+
+.main-screen-container {
+    padding: 5px;   
+}
+
+.block-main-screen {
+    /*height: 10vh;*/
+    display: grid;
+    grid-template-rows: 1.5fr 8.5fr;
+    gap: 0;
+}
+
+/* Birinchi chiziq qismi bilan ishlash grid-row: 1 */
+.top-screen-main {
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+
+.call-center-text {
+    color: #0051ff;
+}
+
+.phone-number-text {
+    color: blueviolet;
+}
+
+/* Ikkinchi qatror grid 2 bilan sihlash */
+.main-screen-main {
+    background-color: rgb(86, 86, 229);
+    padding: 10px;
+}
+
+/* asosiy ekranning qismlari bilan ishlash qismi */
+.main-screen-main {
+    display: grid;
+    grid-template-rows: 3fr 4fr 3fr;
+    gap: 5px;
+}
+
+.main-card-types {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.mainscreen-card-block {
+    margin: 10px;
+}
+
+.mainscreen-cards {
+    max-height: 100px;
+    border-radius: 10px;
+}
+
+/* Ikkinchi maydonning ogohlantirish qismi bilan ishlash */
+.main-screen-notes {
+    display: grid;
+    grid-template-columns: 6fr 4fr;
+    gap: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.mainscreen-notes-text {
+    color: white;
+}
+
+.mainscreen-warning-img {
+    border-radius: 50%;
+}
+
+/* Uchinchi qator bilan ishlash qismi */
+.main-own-part {
+    display: grid;
+    grid-template-columns: 5fr 5fr;
+    gap: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.nfs-img-mainscreen {
+    max-height: 100px;
+    border-radius: 10px;
+}
+
+.main-bank-name {
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    color: yellow;
+    font-size: 48px;
+}
