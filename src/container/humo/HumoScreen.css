@@ -1,0 +1,69 @@
+
+.humo-container {
+    background-color: white;
+    height: 96vh;
+}
+
+/* bosh text maydoni bilan ishlash qismi */
+.humo-main-text-top {
+    display: flex;
+    justify-content: center;
+}
+
+.humo-menu-taxt {
+    margin: 30px auto;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Button bilan ishlash qismi */
+.humo-tranzaction-part {
+
+}
+
+.humo-buttons-part {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.humo-button-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.humo-button-click {
+    text-decoration: none;
+}
+
+.humo-buttons {
+    text-transform: uppercase;
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 500px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+    font-size: 40px;
+    background-color: cyan;
+    color: black;
+    margin: 40px;
+}
+
+.humo-buttons:active {
+    text-transform: uppercase;
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 500px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+    font-size: 40px;
+    background-color: #0fe7b4;
+    color: black;
+    margin: 40px;
+}

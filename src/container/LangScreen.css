@@ -1,0 +1,76 @@
+
+.lang-screen-container {
+    background-color: white;
+    height: 96vh;
+}
+
+/* Asosiy text bilan ishlash qismi */
+.langscreen-main-text {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-size: 22px;
+}
+
+.lang-main-text {
+    margin-top: 40px;
+}
+
+/* Button qismi bilan ishlash */
+.lang-screen-etaps {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    display: grid;
+    grid-template-rows: 5fr 5fr;
+    gap: 5px;
+    margin-top: 10%;
+}
+
+/* Ichki button;ar joylashuvi bilan ishlash qismi */
+.lang-etap-lines {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.lang-etap-lines {
+    margin: 30px;
+}
+
+.lang-etap-button {
+    text-decoration: none;
+    margin: 10px auto;
+}
+
+.lang-in-text {
+    font-size: 50px;
+    border: 2px solid black;
+    width: 500px;
+    padding: 15px 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    background-color: cyan;
+    border-radius: 10px;
+    color: black;
+}
+
+.lang-in-text:active {
+    font-size: 50px;
+    border: 2px solid black;
+    width: 500px;
+    padding: 15px 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    background-color: #1ed2c3;
+    border-radius: 10px;
+    color: black;
+}

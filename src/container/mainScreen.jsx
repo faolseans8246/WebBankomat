@@ -8,6 +8,7 @@ import UzCardLogo from '../images/uzcardNick.jpeg'
 import VicaCardLogo from '../images/visaCardNick.jpeg'
 import UnionPayCardLogo from '../images/unionPayNick.jpeg'
 import MasterCardLogo from '../images/masterCardNick.jpeg'
+import MirCardLogo from '../images/MirCardLogos.png'
 import NFCSytemLogo from '../images/NFSLogos.png'
 import CardInBankOmat from '../images/CardInBankomat.png'
 
@@ -60,6 +61,10 @@ function mainScreenFunc() {
 
                         <a href="#" className="mainscreen-card-block">
                             <img src={MasterCardLogo} alt="" className="mainscreen-cards"/>
+                        </a>
+
+                        <a href="#" className="mainscreen-card-block">
+                            <img src={MirCardLogo} alt="" className="mainscreen-cards"/>
                         </a>
 
                     </div>
