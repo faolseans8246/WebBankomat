@@ -1,0 +1,85 @@
+
+.humobalance-container {
+    height: 96vh;
+    background-color: white;
+}
+
+/* Humo kartasinign balansi bilan ishlash qismi */
+.humo-balance-show-main-text {
+    display: flex;
+    justify-content: center;
+}
+
+.humo-balance-main-text {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-top: 30px;
+}
+
+/* Balansning asosiy qismi bilan ishlash */
+.humo-balance-screen-part {
+    margin-top: 50px;
+    padding: 50px;
+
+}
+
+.humo-balance-screen-blocks {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.humo-balance-text {
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+.humo-vale-indicate-text, .humo-balance-value-get {
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 50px;
+}
+
+/* Karta balansini tekshirishda button bilan ishlash qismi */
+.humo-balance-show-buttons-part {
+    margin-top: 50px;
+    padding: 50px;
+    padding-right: 100px;
+}
+
+.humo-balance-buttons-part {
+    display: flex;
+    justify-content: right;
+}
+
+.humo-balance-button-line-link {
+    text-decoration: none;
+}
+
+.humo-balance-buttons-text {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    border-radius: 15px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 640px;
+    height: 100px;
+    background-color: cyan;
+    color: black;
+}
+
+.humo-balance-buttons-text:active {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    border-radius: 15px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 640px;
+    height: 100px;
+    background-color: #08ee84;
+    color: black;
+}

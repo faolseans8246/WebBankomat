@@ -1,0 +1,73 @@
+
+.humocheck-container {
+    height: 96vh;
+    background-color: white;
+}
+
+/* Text qismi bilan ishlash */
+.humo-check-main-text {
+    display: flex;
+    justify-content: center;
+}
+
+.humocheck-text {
+    margin-top: 25px;
+    margin-bottom: 35px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+/* Check buttonlari bilan ishlash qismi */
+.humo-check-buttons {
+    margin-top: 50px;
+    padding: 50px;
+}
+
+.humocheck-buttons-lines {
+    display: grid;
+    grid-template-rows: 5fr 5fr;
+    gap: 15px;
+}
+
+.humo-chek-line {
+    display: flex;
+    justify-content: space-between;
+}
+
+.humo-check-buttons-lines {
+    text-decoration: none;
+}
+
+.humo-check-buttons-text {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 50px;
+    border: 2px solid black;
+    padding: 10px 25px;
+    width: 640px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    border-radius: 15px;
+    background-color: cyan;
+    color: black;
+}
+
+.humo-check-buttons-text:active {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 50px;
+    border: 2px solid black;
+    padding: 10px 25px;
+    width: 640px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    border-radius: 15px;
+    background-color: #08ee84;
+    color: black;
+}

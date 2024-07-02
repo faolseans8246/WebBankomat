@@ -6,6 +6,8 @@ import MainScreenPage from './container/mainScreen.jsx'
 import LangScreen from "./container/LangScreen";
 import AuthScreen    from "./container/authedintificate/UzbAuthScreen";
 import HumoScreenMenuUzb from "./container/humo/HumoScreenMenuUzb";
+import HumoCheckUzb      from "./container/humo/humoBalance/HumoCheckUzb";
+import HumoBalanceUzb from "./container/humo/humoBalance/HumoBalanceUzb";
 
 const dasboardFunc = () => {
     return (
@@ -15,7 +17,9 @@ const dasboardFunc = () => {
             {/*<MainScreenPage />*/}
             {/*<LangScreen />*/}
             {/*<AuthScreen />*/}
-            <HumoScreenMenuUzb />
+            {/*<HumoScreenMenuUzb />*/}
+            {/*<HumoCheckUzb />*/}
+            <HumoBalanceUzb />
         
         </div>
 
