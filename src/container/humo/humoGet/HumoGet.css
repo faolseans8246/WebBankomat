@@ -1,0 +1,68 @@
+
+.humo-get-container {
+    height: 96vh;
+    background-color: white;
+}
+
+/* text bilan ishlash qismi */
+.humo-get-cash-main-text {
+    display: flex;
+    justify-content: center;
+}
+
+.humo-get-cash-text {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* Pul miqdori buttonlari bilan ishlash qismi */
+.humo-get-cash-values {
+    padding: 50px;
+
+}
+
+.humo-get-cash-button-line {
+    display: flex;
+    justify-content: space-between;
+}
+
+.humo-get-cash-button {
+    text-decoration: none;
+}
+
+.humo-get-cash-button-text {
+    border: 2px solid black;
+    border-radius: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 5px 20px;
+    width: 500px;
+    height: 80px;
+    margin-top: 15px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: cyan;
+}
+
+.humo-get-cash-button-text:active {
+    border: 2px solid black;
+    border-radius: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 5px 20px;
+    width: 500px;
+    height: 80px;
+    margin-top: 15px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: #0fe7b4;
+}
+

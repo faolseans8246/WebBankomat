@@ -8,6 +8,8 @@ import AuthScreen    from "./container/authedintificate/UzbAuthScreen";
 import HumoScreenMenuUzb from "./container/humo/HumoScreenMenuUzb";
 import HumoCheckUzb      from "./container/humo/humoBalance/HumoCheckUzb";
 import HumoBalanceUzb from "./container/humo/humoBalance/HumoBalanceUzb";
+import HumoGetUzb from "./container/humo/humoGet/HumoGetUzb";
+import HumoGetCheckReq from "./container/humo/humoGet/HumoGetCheckReq";
 
 const dasboardFunc = () => {
     return (
@@ -17,9 +19,13 @@ const dasboardFunc = () => {
             {/*<MainScreenPage />*/}
             {/*<LangScreen />*/}
             {/*<AuthScreen />*/}
+
+
             {/*<HumoScreenMenuUzb />*/}
             {/*<HumoCheckUzb />*/}
-            <HumoBalanceUzb />
+            {/*<HumoBalanceUzb />*/}
+            {/*<HumoGetUzb />*/}
+            <HumoGetCheckReq />
         
         </div>
 

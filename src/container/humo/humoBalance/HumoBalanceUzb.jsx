@@ -1,5 +1,5 @@
 import React from "react";
-import './HumoBalanceUzb.css'
+import './HumoBalance.css'
 
 function humoBalanceUzbFunc() {
     return (

@@ -1,5 +1,5 @@
 import React from "react";
-import './HumoChekUzb.css'
+import './HumoChek.css'
 
 
 function humoCheckUzbFunc() {
