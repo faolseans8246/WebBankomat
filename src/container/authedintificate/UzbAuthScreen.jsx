@@ -1,7 +1,7 @@
 import React from "react";
 import './AuthScreen.css'
 
-function authScreenFunc() {
+function authScreenFunc({setHumoChangePart}) {
 
     return (
 
@@ -35,7 +35,7 @@ function authScreenFunc() {
             <div className="auth-place-buttons">
 
                 <div className="auth-in-buttons">
-                    <a href="#" className="my-auth-buttons">
+                    <a href="#" onClick={() => setHumoChangePart('lang')} className="my-auth-buttons">
                         <div className="auth-place-text">
                             Orqaga
                         </div>
@@ -43,7 +43,15 @@ function authScreenFunc() {
                 </div>
 
                 <div className="auth-in-buttons">
-                    <a href="#" className="my-auth-buttons">
+                    <a href="#" onClick={() => setHumoChangePart('humo-menu')} className="my-auth-buttons">
+                        <div className="auth-place-text">
+                            Ok
+                        </div>
+                    </a>
+                </div>
+
+                <div className="auth-in-buttons">
+                    <a href="#" onClick={() => setHumoChangePart('main')} className="my-auth-buttons">
                         <div className="auth-place-text">
                             Kartani olish
                         </div>

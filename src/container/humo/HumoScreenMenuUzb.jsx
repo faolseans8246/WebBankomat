@@ -1,7 +1,7 @@
 import React from "react";
 import './HumoScreen.css'
 
-function humoScreenUzbFunc() {
+function humoScreenUzbFunc({setHumoChangePart}) {
 
     return (
 
@@ -24,11 +24,11 @@ function humoScreenUzbFunc() {
 
                         <a href="#" className="humo-button-click">
                             <div className="humo-buttons">
-                                Karta sozlamalari
+                                <del>Karta sozlamalari</del>
                             </div>
                         </a>
 
-                        <a href="#" className="humo-button-click">
+                        <a href="#" onClick={() => setHumoChangePart('humo-get-value')} className="humo-button-click">
                             <div className="humo-buttons">
                                 Karta balansi
                             </div>
@@ -41,11 +41,11 @@ function humoScreenUzbFunc() {
 
                         <a href="#" className="humo-button-click">
                             <div className="humo-buttons">
-                                Pul o'tkazmasi
+                                <del>Pul o'tkazmasi</del>
                             </div>
                         </a>
 
-                        <a href="#" className="humo-button-click">
+                        <a href="#" onClick={() => setHumoChangePart('get-humo-cash')} className="humo-button-click">
                             <div className="humo-buttons">
                                 Naqt pul olish
                             </div>
@@ -56,13 +56,13 @@ function humoScreenUzbFunc() {
                     {/*  uchinchi qator  */}
                     <div className="humo-button-line">
 
-                        <a href="#" className="humo-button-click">
+                        <a href="#" onClick={() => setHumoChangePart('lang')} className="humo-button-click">
                             <div className="humo-buttons">
                                 Orqaga
                             </div>
                         </a>
 
-                        <a href="#" className="humo-button-click">
+                        <a href="#" onClick={() => setHumoChangePart('main')} className="humo-button-click">
                             <div className="humo-buttons">
                                 Kartani chiqarish
                             </div>

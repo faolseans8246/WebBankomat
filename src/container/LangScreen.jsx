@@ -1,7 +1,7 @@
 import React from "react";
 import './LangScreen.css'
 
-function langScreenFunc() {
+function langScreenFunc({setHumoChangePart}) {
 
     return (
 
@@ -19,7 +19,7 @@ function langScreenFunc() {
                 <div className="lang-etap-lines">
                     <div className="lang-in-etap">
 
-                        <a href="#" className="lang-etap-button">
+                        <a href="#" onClick={() => setHumoChangePart('humo_auth')} className="lang-etap-button">
                             <div className="lang-in-text">
                                 O'zbek tili
                             </div>
@@ -31,7 +31,7 @@ function langScreenFunc() {
 
                         <a href="#" className="lang-etap-button">
                             <div className="lang-in-text">
-                                Ingliz tili
+                                <del>Ingliz tili</del>
                             </div>
                         </a>
 
@@ -44,7 +44,7 @@ function langScreenFunc() {
 
                         <a href="#" className="lang-etap-button">
                             <div className="lang-in-text">
-                                Rus tili
+                                <del>Rus tili</del>
                             </div>
                         </a>
 
@@ -52,7 +52,7 @@ function langScreenFunc() {
 
                     <div className="lang-in-etap">
 
-                        <a href="#" className="lang-etap-button">
+                        <a href="#" onClick={() => setHumoChangePart('main')} className="lang-etap-button">
                             <div className="lang-in-text">
                                 Bosh ekran
                             </div>

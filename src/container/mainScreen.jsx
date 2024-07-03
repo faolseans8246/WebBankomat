@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import './mainScreen.css'
 import '../general.css'
 
@@ -11,8 +11,9 @@ import MasterCardLogo from '../images/masterCardNick.jpeg'
 import MirCardLogo from '../images/MirCardLogos.png'
 import NFCSytemLogo from '../images/NFSLogos.png'
 import CardInBankOmat from '../images/CardInBankomat.png'
+import {Link} from "react-router-dom";
 
-function mainScreenFunc() {
+function mainScreenFunc({setHumoChangePart}) {
 
     return (
 
@@ -43,10 +44,11 @@ function mainScreenFunc() {
                     <div className="main-card-types">
 
                         {/* Cartalar bilan ishlash qismi */}
-                        <a href="#" className="mainscreen-card-block">
+                        <a href="#" onClick={() => setHumoChangePart('lang')} className="mainscreen-card-block">
                             <img src={HomoCardLogo} alt="" className="mainscreen-cards"/>
                         </a>
 
+                        {/* ishga tushirilmagan pastki qism */}
                         <a href="#" className="mainscreen-card-block">
                             <img src={UzCardLogo} alt="" className="mainscreen-cards"/>
                         </a>

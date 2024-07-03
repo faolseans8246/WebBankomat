@@ -2,7 +2,7 @@
 import React from "react";
 import './HumoGet.css'
 
-function humoGetUzbFunc() {
+function humoGetUzbFunc({setHumoChangePart}) {
     return (
         <div className="humo-get-container">
 
@@ -20,13 +20,13 @@ function humoGetUzbFunc() {
                     <div className="humo-get-cash-button-line">
                         <a href="#" className="humo-get-cash-button">
                             <div className="humo-get-cash-button-text">
-                                50 000
+                                <del>50 000</del>
                             </div>
                         </a>
 
                         <a href="#" className="humo-get-cash-button">
                             <div className="humo-get-cash-button-text">
-                                100 000
+                                <del>100 000</del>
                             </div>
                         </a>
                     </div>
@@ -35,13 +35,13 @@ function humoGetUzbFunc() {
                     <div className="humo-get-cash-button-line">
                         <a href="#" className="humo-get-cash-button">
                             <div className="humo-get-cash-button-text">
-                                500 000
+                                <del>500 000</del>
                             </div>
                         </a>
 
                         <a href="#" className="humo-get-cash-button">
                             <div className="humo-get-cash-button-text">
-                                1 000 000
+                                <del>1 000 000</del>
                             </div>
                         </a>
                     </div>
@@ -50,13 +50,13 @@ function humoGetUzbFunc() {
                     <div className="humo-get-cash-button-line">
                         <a href="#" className="humo-get-cash-button">
                             <div className="humo-get-cash-button-text">
-                                2 000 000
+                                <del>2 000 000</del>
                             </div>
                         </a>
 
                         <a href="#" className="humo-get-cash-button">
                             <div className="humo-get-cash-button-text">
-                                4 000 000
+                                <del>4 000 000</del>
                             </div>
                         </a>
                     </div>
@@ -65,11 +65,11 @@ function humoGetUzbFunc() {
                     <div className="humo-get-cash-button-line">
                         <a href="#" className="humo-get-cash-button">
                             <div className="humo-get-cash-button-text">
-                                Boshqa summa
+                                <del>Boshqa summa</del>
                             </div>
                         </a>
 
-                        <a href="#" className="humo-get-cash-button">
+                        <a href="#" onClick={() => setHumoChangePart('humo-menu')} className="humo-get-cash-button">
                             <div className="humo-get-cash-button-text">
                                 Orqaga
                             </div>

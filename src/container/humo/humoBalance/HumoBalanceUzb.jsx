@@ -1,7 +1,7 @@
 import React from "react";
 import './HumoBalance.css'
 
-function humoBalanceUzbFunc() {
+function humoBalanceUzbFunc({setHumoChangePart}) {
     return (
         <div className="humobalance-container">
 
@@ -38,7 +38,7 @@ function humoBalanceUzbFunc() {
             {/* Karta balancini tekshirishda button qismi bilan ishlash */}
             <div className="humo-balance-show-buttons-part">
                 <div className="humo-balance-buttons-part">
-                    <a href="#" className="humo-balance-button-line-link">
+                    <a href="#" onClick={() => setHumoChangePart('humo-menu')} className="humo-balance-button-line-link">
                         <h1 className="humo-balance-buttons-text">
                             Menyuga qaytish
                         </h1>
