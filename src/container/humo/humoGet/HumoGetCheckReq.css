@@ -47,6 +47,7 @@
     width: 640px;
     height: 100px;
     font-size: 50px;
+    font-weight: bold;
 }
 
 .humo-get-req-button-text:active {
@@ -62,4 +63,5 @@
     width: 640px;
     height: 100px;
     font-size: 50px;
+    font-weight: bold;
 }

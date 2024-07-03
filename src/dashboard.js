@@ -16,15 +16,14 @@ const dasboardFunc = () => {
 
         <div className="dasboard-container">
 
-            {/*<MainScreenPage />*/}
-            {/*<LangScreen />*/}
-            {/*<AuthScreen />*/}
+            <MainScreenPage />
+            <LangScreen />
+            <AuthScreen />
 
-
-            {/*<HumoScreenMenuUzb />*/}
-            {/*<HumoCheckUzb />*/}
-            {/*<HumoBalanceUzb />*/}
-            {/*<HumoGetUzb />*/}
+            <HumoScreenMenuUzb />
+            <HumoCheckUzb />
+            <HumoBalanceUzb />
+            <HumoGetUzb />
             <HumoGetCheckReq />
         
         </div>
